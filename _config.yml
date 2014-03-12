@@ -1,3 +1,4 @@
-name: Your New Jekyll Site
+name: Anneso7
 markdown: redcarpet
-pygments: true
+pygments: false
+exclude: README.md, .gitignore
