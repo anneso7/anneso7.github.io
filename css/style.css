@@ -1,0 +1,241 @@
+html, body {
+    width: 100%;
+}
+
+body {
+    font-family: 'bree';
+    background-color: rgba(0, 0, 0, 0.2);
+}
+
+*, *:before, *:after {
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: 'bree';
+    src: url('/fonts/bree/bree.eot');
+    src: url('/fonts/bree/bree.eot?#iefix') format('embedded-opentype'),
+    url('/fonts/bree/bree.woff') format('woff'),
+    url('/fonts/bree/bree.ttf') format('truetype'),
+    url('/fonts/bree/bree.svg#bree_ltlight') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+@font-face {
+    font-family: 'narziss';
+    src: url('/fonts/narziss/narziss.eot');
+    src: url('/fonts/narziss/narziss.eot?#iefix') format('embedded-opentype'),
+    url('/fonts/narziss/narziss.woff') format('woff'),
+    url('/fonts/narziss/narziss.ttf') format('truetype'),
+    url('/fonts/narziss/narziss.svg#narziss') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+h1 {
+    font-family: 'bree';
+    font-size: 13px;
+    line-height: 100%;
+    margin-top: 3px;
+    margin-bottom: 25px;
+    color: rgb(103, 62, 140);
+}
+
+h2 {
+    font-size: 22px;
+    line-height: 100%;
+    margin-top: 30px;
+    margin-bottom: 15px;
+    color: rgb(253, 174, 11);
+}
+
+h3{
+    font-size: 16px;
+    color: rgba(255, 255, 255, 1);
+    display: block;
+    width: 100%;
+    height: 100%;
+    position: relative;
+    padding-top: 125px;
+}
+
+h3:after {
+    background-repeat: no-repeat;
+    opacity: 0.9;
+    position: absolute;
+    content: "";
+    width: 100%;
+    height: 100%;
+    top: 50%;
+    left: 50%;
+    margin: -70px 0 0px -70px;
+}
+
+h4{
+    font-family: 'narziss';
+    font-size: 30px;
+    color: rgb(88, 37, 127);
+    margin-bottom: 8px;
+}
+
+h5{
+    font-family: 'narziss';
+    font-size: 30px;
+    color: rgb(255, 230, 55);
+    margin-bottom: 8px;
+}
+
+h6{
+    font-family: 'narziss';
+    font-size: 30px;
+    color: rgb(150, 150, 150);
+    margin-bottom: 8px;
+}
+
+h7{
+    font-family: 'narziss';
+    font-size: 30px;
+    color: rgb(88, 37, 127);
+    margin-bottom: 8px;
+}
+
+li {
+    list-style-type: none;
+    font-size: 13.5px;
+    color: #626262;
+}
+
+.home {
+    width: 700px;
+    height: 700px;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    margin: -350px 0 0 -350px;
+}
+
+.edition {
+    width: 1000px;
+    height: 700px;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    margin: -350px 0 0 -500px;
+}
+
+.identite {
+    width: 1000px;
+    height: 700px;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    margin: -350px 0 0 -500px;
+}
+
+.illustration {
+    width: 1000px;
+    height: 700px;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    margin: -350px 0 0 -500px;
+}
+
+.web {
+
+    width: 1000px;
+    height: 700px;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    margin: -350px 0 0 -500px;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+.carre {
+    float: left;
+    width: 350px;
+    height: 350px;
+    background-color: rgba(255, 255, 255, 1);
+    text-align: center;
+}
+
+.carre.petit {
+    width: 175px;
+    height: 175px;
+}
+
+.carre.grand {
+    padding: 26px;
+}
+
+.carre.link a{
+    display: block;
+    width: 100%;
+    height: 100%;
+    color: rgba(255, 255, 255, 1);
+}
+
+
+section .carre:last-child{
+    position: absolute;
+    top: 350px;
+    left: 0;
+}
+
+.carre.petit.violet {
+    background-color: rgb(88, 37, 127);
+    overflow: hidden;
+}
+
+.carre.petit.jaune {
+    background-color: rgb(248, 203, 25);
+    overflow: hidden;
+}
+
+.carre.petit.gris {
+    background-color: rgb(176, 176, 177);
+    overflow: hidden;
+}
+
+.cv1:after{
+    background-image: url(../images/cv1.svg);
+}
+
+.illustration1:after{
+    background-image: url(../images/illustration1.svg);
+}
+
+.edition1:after{
+    background-image: url(../images/edition1.svg);
+}
+
+.web1:after{
+    background-image: url(../images/web1.svg);
+}
+
+.site1:after{
+    background-image: url(../images/site1.svg);
+}
+
+.identite1:after{
+    background-image: url(../images/identite1.svg);
+}
+
+.logo{
+    margin-top: 25px;
+}
