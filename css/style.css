@@ -49,11 +49,11 @@ h1 {
 }
 
 h2 {
-    font-size: 22px;
-    line-height: 100%;
-    margin-top: 30px;
-    margin-bottom: 15px;
-    color: rgb(253, 174, 11);
+    font-family: 'narziss';
+    font-size: 30px;
+    margin-bottom: 8px;
+    display: inline-block;
+    padding: 0 20px;
 }
 
 h3{
@@ -78,32 +78,16 @@ h3:after {
     margin: -70px 0 0px -70px;
 }
 
-h4{
-    font-family: 'narziss';
-    font-size: 30px;
+.violet {
     color: rgb(88, 37, 127);
-    margin-bottom: 8px;
 }
 
-h5{
-    font-family: 'narziss';
-    font-size: 30px;
+.jaune {
     color: rgb(255, 230, 55);
-    margin-bottom: 8px;
 }
 
-h6{
-    font-family: 'narziss';
-    font-size: 30px;
+.gris{
     color: rgb(150, 150, 150);
-    margin-bottom: 8px;
-}
-
-h7{
-    font-family: 'narziss';
-    font-size: 30px;
-    color: rgb(88, 37, 127);
-    margin-bottom: 8px;
 }
 
 li {
@@ -121,41 +105,46 @@ li {
     margin: -350px 0 0 -350px;
 }
 
-.edition {
+.book {
     width: 1000px;
-    height: 700px;
-    position: fixed;
-    top: 50%;
-    left: 50%;
-    margin: -350px 0 0 -500px;
+    margin: 20px auto;
 }
 
-.identite {
+.book div {
     width: 1000px;
     height: 700px;
-    position: fixed;
-    top: 50%;
-    left: 50%;
-    margin: -350px 0 0 -500px;
+    position: relative;
 }
 
-.illustration {
+.book div img {
     width: 1000px;
-    height: 700px;
-    position: fixed;
-    top: 50%;
-    left: 50%;
-    margin: -350px 0 0 -500px;
 }
 
-.web {
+.book div a {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 50%;
+}
 
-    width: 1000px;
-    height: 700px;
-    position: fixed;
-    top: 50%;
+.book div a:focus {
+    outline: 0;
+}
+
+.book div a:first-child {
+    display: none;
+    background: transparent url("/images/arrow-left.svg") no-repeat left center;
+}
+
+.book div a:last-child {
     left: 50%;
-    margin: -350px 0 0 -500px;
+    right: 0;
+    background: transparent url("/images/arrow-right.svg") no-repeat right center;
+}
+
+.book .homepage {
+    width: 70px;
 }
 
 a {
